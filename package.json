@@ -1,0 +1,27 @@
+{
+  "name": "NLWDiscover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FerdiHank/NLWDiscover.git"
+  },
+  "keywords": [],
+  "author": "Fernanda Aguiar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FerdiHank/NLWDiscover/issues"
+  },
+  "homepage": "https://github.com/FerdiHank/NLWDiscover#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
