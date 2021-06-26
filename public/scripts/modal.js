@@ -1,13 +1,22 @@
 
- module.exports = function modal(){
+ export default function modal(){
  
-    function open(){}
-    function close(){}
+    function open(){
+   document.querySelector('.modal-wrapper').classList.add("active")
 
-}
 
-return{
+    }
+
+    function close(){
+
+
+       document.querySelector('.modal-wrapper').classList.remove("active")
+    }
+
+
+
+  return{
    open,
-   close
-
+   close 
+}
 }
